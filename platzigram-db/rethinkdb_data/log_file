@@ -1,0 +1,20 @@
+2016-07-07T12:34:40.399327000 0.258601s notice: Recursively removing directory /Users/manolocomi/Documents/platzigram-db/rethinkdb_data/tmp
+2016-07-07T12:34:40.402319000 0.261599s notice: Initializing directory /Users/manolocomi/Documents/platzigram-db/rethinkdb_data
+2016-07-07T12:34:40.402425000 0.261699s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/manolocomi/Documents/platzigram-db/rethinkdb_data' did not already exist or is empty.)
+2016-07-07T12:34:40.402530000 0.261805s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.29))...
+2016-07-07T12:34:40.416021000 0.275296s notice: Running on Darwin 15.5.0 x86_64
+2016-07-07T12:34:40.416077000 0.275351s notice: Loading data from directory /Users/manolocomi/Documents/platzigram-db/rethinkdb_data
+2016-07-07T12:34:40.533376000 0.392650s info: Automatically using cache size of 172 MB
+2016-07-07T12:34:40.534979000 0.394253s notice: Listening for intracluster connections on port 29015
+2016-07-07T12:34:40.537468000 0.396743s notice: Listening for client driver connections on port 28015
+2016-07-07T12:34:40.537575000 0.396849s notice: Listening for administrative HTTP connections on port 8080
+2016-07-07T12:34:40.537577000 0.396851s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-07T12:34:40.537582000 0.396856s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-07T12:34:40.537584000 0.396858s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-07T12:34:40.537587000 0.396861s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-07T12:34:40.537591000 0.396865s notice: Server ready, "MacBook_Pro_de_Manolo_local_6d0" 745e30c5-864c-4f7e-9c78-96641b98eeff
+2016-07-08T18:29:15.101873000 3767.926689s notice: Server got SIGINT from pid 242, uid 501; shutting down...
+2016-07-08T18:29:15.102837000 3767.927653s notice: Shutting down client connections...
+2016-07-08T18:29:15.104920000 3767.929735s notice: All client connections closed.
+2016-07-08T18:29:15.104934000 3767.929749s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-08T18:29:15.114452000 3767.939268s notice: Storage engine shut down.
