@@ -2,4 +2,4 @@
 dependencies:
 - { role: jdauphant.nginx }
 - { role: jacobwgillespie-ansible.rethinkdb }
-- { role: nodesource.node }
+- { role: nodesource.node, become: yes }
