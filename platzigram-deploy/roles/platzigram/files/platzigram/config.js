@@ -19,7 +19,7 @@ const config = {
       callbackURL: 'http://platzigram.com/auth/facebook/callback'
     }
   },
-  secret: process.env.PLATZIGRAM_SECRET || 'pl4tzi' // never use default
+  secret: process.env.PLATZIGRAM_SECRET // never use default
 }
 
 // For development use local micro instances
